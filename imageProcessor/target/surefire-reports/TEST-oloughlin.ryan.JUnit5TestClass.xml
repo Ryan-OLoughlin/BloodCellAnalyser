@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="oloughlin.ryan.JUnit5TestClass" time="0.868" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/ryanoloughlin/College/Sem2/DataStructuresAndAlgorithms/CA/imageprocessor/target/test-classes:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21.jar:/home/ryanoloughlin/.m2/repository/org/testfx/testfx-core/4.0.16-alpha/testfx-core-4.0.16-alpha.jar:/home/ryanoloughlin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ryanoloughlin/.m2/repository/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-controls/21/javafx-controls-21.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-swing/21/javafx-swing-21.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-swing/21/javafx-swing-21-linux.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ryanoloughlin/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/ryanoloughlin/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/ryanoloughlin/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/ryanoloughlin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/ryanoloughlin/College/Sem2/DataStructuresAndAlgorithms/CA/imageprocessor/target/surefire 2025-03-21T18-06-31_972-jvmRun1 surefire12965868497816258709tmp surefire_014147052789790772935tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="oloughlin.ryan.JUnit5TestClass#testExtractTricolor"/>
+    <property name="surefire.test.class.path" value="/home/ryanoloughlin/College/Sem2/DataStructuresAndAlgorithms/CA/imageprocessor/target/test-classes:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21.jar:/home/ryanoloughlin/.m2/repository/org/testfx/testfx-core/4.0.16-alpha/testfx-core-4.0.16-alpha.jar:/home/ryanoloughlin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ryanoloughlin/.m2/repository/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-controls/21/javafx-controls-21.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-swing/21/javafx-swing-21.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-swing/21/javafx-swing-21-linux.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ryanoloughlin/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/ryanoloughlin/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/ryanoloughlin/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/ryanoloughlin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/ryanoloughlin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="/home/ryanoloughlin/College/Sem2/DataStructuresAndAlgorithms/CA/imageprocessor/target/classes:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21-linux.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-controls/21/javafx-controls-21-linux.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21-linux.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21-linux.jar:/home/ryanoloughlin/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar:/home/ryanoloughlin/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.37/jmh-generator-annprocess-1.37.jar"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/ryanoloughlin/College/Sem2/DataStructuresAndAlgorithms/CA/imageprocessor"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/ryanoloughlin/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.2/surefire-booter-2.22.2.jar:/home/ryanoloughlin/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.jar:/home/ryanoloughlin/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar:/home/ryanoloughlin/College/Sem2/DataStructuresAndAlgorithms/CA/imageprocessor/target/test-classes:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-base/21/javafx-base-21.jar:/home/ryanoloughlin/.m2/repository/org/testfx/testfx-core/4.0.16-alpha/testfx-core-4.0.16-alpha.jar:/home/ryanoloughlin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ryanoloughlin/.m2/repository/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-controls/21/javafx-controls-21.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-swing/21/javafx-swing-21.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-swing/21/javafx-swing-21-linux.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar:/home/ryanoloughlin/.m2/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ryanoloughlin/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/ryanoloughlin/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/ryanoloughlin/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/ryanoloughlin/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/ryanoloughlin/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/ryanoloughlin/.m2/repository/org/apache/maven/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar:/home/ryanoloughlin/.m2/repository/org/junit/platform/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+7-Ubuntu-124.04.1"/>
+    <property name="user.name" value="ryanoloughlin"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.11.0-19-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/home/ryanoloughlin/.vscode/extensions/oracle.oracle-java-23.1.0/nbcode/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/home/ryanoloughlin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-21"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="/home/ryanoloughlin/College/Sem2/DataStructuresAndAlgorithms/CA/imageprocessor"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="21.0.6+7-Ubuntu-124.04.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testExtractTricolor" classname="oloughlin.ryan.JUnit5TestClass" time="0.384"/>
+</testsuite>
